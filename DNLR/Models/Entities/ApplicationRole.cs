@@ -1,6 +1,8 @@
-﻿namespace DNLR.Models.Entities;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class ApplicationRole
+namespace DNLR.Models.Entities;
+
+public class ApplicationRole : IdentityRole
 {
     
 }
